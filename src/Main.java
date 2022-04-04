@@ -23,7 +23,7 @@ public class Main {
 		String msg = copy_msg.toLowerCase();
 		if (msg.contains("hello")) {
 			out.println("Hey!");
-		} else if (msg.contains("need") || msg.contains("help") || msg.contains("math")) {
+		} else if (msg.contains("help") && msg.contains("math")) {
 			math();
 		} else if (msg.contains("thanks") || 
 						 	 msg.contains("thank")) {
