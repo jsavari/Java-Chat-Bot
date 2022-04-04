@@ -21,7 +21,7 @@ public class Main {
 
 	static void processMessage(String copy_msg) {
 		String msg = copy_msg.toLowerCase();
-		if (msg.contains("hello")) {
+		if (msg.contains("hello") || msg.contains("hi")) {
 			out.println("Hey!");
 		} else if (msg.contains("help") && msg.contains("math")) {
 			math();
